@@ -1540,35 +1540,65 @@
   dependencies:
     esquery "^1.0.1"
 
-"@pinser-metaverse/core@0.7.3":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@pinser-metaverse/core/-/core-0.7.3.tgz#1a335fbafa9f9819b01e7417759dee219b376e2e"
-  integrity sha512-/IV9xkhEOA7Y9dpfrIBeVOa6JYQtK3M4focWOPcibUpvY516GsEILCxg+nwalsAuSMkvqBhOcD7X8Cs05i4aDA==
+"@pinser-metaverse/core@latest":
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@pinser-metaverse/core/-/core-0.12.5.tgz#43a349dfa46c9ad9d76d047add4b71247adc72ce"
+  integrity sha512-RUFiJ0RZch/fGv2jcGJMeLW3BpFbukt7YkLTIdTveC+GIT88JjXvyxSB9BlZEECG3qGwZBynf96SVUEce7RZRQ==
 
-"@pinser-metaverse/exporter@0.7.3":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@pinser-metaverse/exporter/-/exporter-0.7.3.tgz#4400f539b7d38ffdaa81908e12a2145401ca42bc"
-  integrity sha512-GxOLu4+nmA1kwqiLC+7XIFMRPhm00CYuCD4ADi05S0kSujV4tCRU9BJkFFjXcaQu3CFIaItvnRQ9L8fqc3fqUQ==
+"@pinser-metaverse/design-system@latest":
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@pinser-metaverse/design-system/-/design-system-0.12.5.tgz#130371ea118d8506db615fa5b33300e4b0bdedb0"
+  integrity sha512-20bi2bSL2hegYXo1nA+6uPYKXESjiYT99BDyr4hrMKfHxio6YTT5TmFLkQUi9iPdFsw1VTwcugZbs5VMgB8qgw==
 
-"@pinser-metaverse/gltf@0.7.3":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@pinser-metaverse/gltf/-/gltf-0.7.3.tgz#74d709035225de6b8f1c99193149cf22d6c3dbf9"
-  integrity sha512-wG4Y8QkXZy0OgQlgiWDXoKdtAOU5fQWg4JyEqRsgxB/QlEqqclsba119BqLL5S24QWZAOImQosw+UhAYRTLvJA==
+"@pinser-metaverse/exporter@latest":
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@pinser-metaverse/exporter/-/exporter-0.12.5.tgz#b5389ada1d0df46f151d4f786086d45bae17f92b"
+  integrity sha512-4VBXehx4zIiFEq9a9ELodVYhJHv2e+BjTgPVqNngMgwHeYunJkGuSv8UvJad8JX4JmLnwyWT2tA4xhSLvGpTeQ==
 
-"@pinser-metaverse/observe@0.7.3":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@pinser-metaverse/observe/-/observe-0.7.3.tgz#20e12a68015f219ac420493fa995bbc67ab6d532"
-  integrity sha512-B5rPRSmkxIUoAimuDkkH/vS2NkD8bKcfvPnZN4JgFmVJytsPpUVY4VCsPYhm3ifcFb37Wiq+K2hmmqgWD+0ucQ==
+"@pinser-metaverse/gltf@latest":
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@pinser-metaverse/gltf/-/gltf-0.12.5.tgz#4d7dc2bbd7dbfc87409fe4805eedaf4bb5d0f2ef"
+  integrity sha512-X/QiYybZg0+YyS1sBzFRIzdBJh7k+rxBkZ11l03xeWDCGqgKuI8fno8DoWe22fKZ0to5uWEZswQQRaVEGGASgQ==
 
-"@pinser-metaverse/player@0.7.3":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@pinser-metaverse/player/-/player-0.7.3.tgz#0abf4752e82734103cf2a798d6b6a01b5d68ccd0"
-  integrity sha512-C48XjYYiIo8hYNZyFWacqi9b6OHyYeuz9Ix5E/YPHBOGO5QBm84aC0JgH4glbHtlZWo8Aw16XREmpHj1el13XA==
+"@pinser-metaverse/info@latest":
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@pinser-metaverse/info/-/info-0.12.5.tgz#34a964eb9b43ac4d33bd1361e2dd65ea43fb4d75"
+  integrity sha512-lrtUf3e0omQt4WD2ZzR9qfKrsaAZy+6Wa8F+CzOOlv28Ea3rcc7Pq9/KX7WRK6P9OQ0TeF30FZfXH1GO/xNuqw==
 
-"@pinser-metaverse/scene@0.7.3":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@pinser-metaverse/scene/-/scene-0.7.3.tgz#04b30ff6069960f9f0b24efa189cfe21d6c0d2ae"
-  integrity sha512-4aQ+ZiNtDmrSrj6tTgvnvsc9yjYwgnxMqAh3ievj4EcZdYjMhSjvleSwA/sWnY0bgQuJD4Lw/uWyTO8V7yShAg==
+"@pinser-metaverse/observe@latest":
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@pinser-metaverse/observe/-/observe-0.12.5.tgz#aed18e3c4105b1990d3f01709fa6746073f9eab2"
+  integrity sha512-4rtpWV8LfTIbhGRXZaQ9jsnLds6sof/oqFZ0OsZ9AFiLgFkGIP1CbfhUnqC1k3G3oxFuyg86s1LyA7gWugqrCA==
+
+"@pinser-metaverse/player@latest":
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@pinser-metaverse/player/-/player-0.12.5.tgz#094d746110a14f114a0d02ac9a6ea6f2f5671f7b"
+  integrity sha512-BDuF5ga8kJOkOYFNvGZYyb0EraSQUh4NI7/kO5D020b5VcG8hH4SfLmkHQqsPYWkhvSkOXcofWNOIUVnonlZVA==
+
+"@pinser-metaverse/ready-player-me@latest":
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@pinser-metaverse/ready-player-me/-/ready-player-me-0.12.5.tgz#48d8442e7b176dd2e0945b9bed423715061247e8"
+  integrity sha512-WkvDq46j47nzwKqbCWKwk9eQ9+yPpM1X9RTWNCQ8PaoJCsxy3XGRR95s9sQxQnMV/W3s/ipS7C9dVuUh4Q1tVA==
+
+"@pinser-metaverse/room@latest":
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@pinser-metaverse/room/-/room-0.12.5.tgz#8353d5110feb3cfc7b664f799b783014f1181a32"
+  integrity sha512-V3NY4h1iBZEOE+5z5Vs64dwQBHMVPKyshpUUpuV0KwqqvbnI/3F8WJ3/82aDdsDfNwhg3bL1ixcTdqecrX3xhA==
+
+"@pinser-metaverse/scene@latest":
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@pinser-metaverse/scene/-/scene-0.12.5.tgz#144267d6ff8c32853cce39549200a2d2c6e7bd52"
+  integrity sha512-Ca3wGVhJjN8HDRy8NG9yIogUIqb42cdsGSgOasNj4JwVn6JSxzKFZIZxUwjNwOlSwgO3frK0rUX80gOxFdJXGw==
+
+"@pinser-metaverse/screen-shared@latest":
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@pinser-metaverse/screen-shared/-/screen-shared-0.12.5.tgz#f1465ba41680a51bf2018192ab0ed4502a7c96bc"
+  integrity sha512-QabKrWbAMXRuNFGKTefd1OG6MIZkaEi2aJ/XkJjQZjS4JwcM1WfCUdAlL9b43zc/iRPjCMNNYNyYbmhBwoY3fw==
+
+"@pinser-metaverse/teleport@latest":
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@pinser-metaverse/teleport/-/teleport-0.12.5.tgz#eceadce0bd3632c581656ff3242d9f780fe9002a"
+  integrity sha512-nxhwHlT7IEPfc6WiwsYskKBN8uViuBulqf7uMawJZJqJrI73fKWnst3Wr+HC4NdUPIxw8HJzQkVbQIusVf1AKw==
 
 "@pmmmwh/react-refresh-webpack-plugin@^0.5.7":
   version "0.5.7"
@@ -3019,6 +3049,11 @@ char-regex@^1.0.2:
   resolved "https://registry.yarnpkg.com/char-regex/-/char-regex-1.0.2.tgz#d744358226217f981ed58f479b1d6bcc29545dcf"
   integrity sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==
 
+charenc@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/charenc/-/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
+  integrity sha512-yrLQ/yVUFXkzg7EDQsPieE/53+0RlaWTs+wBrvW36cyilJ2SaDWfl4Yj7MtLTXleV9uEKefbAGUPv2/iWSooRA==
+
 "chokidar@>=3.0.0 <4.0.0", chokidar@^3.5.1, chokidar@^3.5.3:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
@@ -3330,6 +3365,11 @@ cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
     which "^2.0.1"
+
+crypt@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/crypt/-/crypt-0.0.2.tgz#88d7ff7ec0dfb86f713dc87bbb42d044d3e6c41b"
+  integrity sha512-mCxBlsHFYh9C+HVpiEacem8FEBnMXgU9gy4zmNC+SXAZNB/1idgp/aulFJ4FgCi7GPEVbfyng092GqL2k2rmow==
 
 css-declaration-sorter@^6.3.0:
   version "6.3.1"
@@ -4883,7 +4923,7 @@ is-boolean-object@^1.1.0:
     call-bind "^1.0.2"
     has-tostringtag "^1.0.0"
 
-is-buffer@^1.0.2:
+is-buffer@^1.0.2, is-buffer@~1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
   integrity sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
@@ -5913,6 +5953,15 @@ map-limit@0.0.1:
   integrity sha512-pJpcfLPnIF/Sk3taPW21G/RQsEEirGaFpCW3oXRwH9dnFHPHNGjNyvh++rdmC2fNqEaTw2MhYJraoJWAHx8kEg==
   dependencies:
     once "~1.3.0"
+
+md5@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/md5/-/md5-2.3.0.tgz#c3da9a6aae3a30b46b7b0c349b87b110dc3bda4f"
+  integrity sha512-T1GITYmFaKuO91vxyoQMFETst+O71VUPEU3ze5GNzDm0OWdP8v1ziTaAEPUr/3kLsY3Sftgz242A1SetQiDL7g==
+  dependencies:
+    charenc "0.0.2"
+    crypt "0.0.2"
+    is-buffer "~1.1.6"
 
 mdn-data@2.0.14:
   version "2.0.14"
@@ -8484,6 +8533,11 @@ uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+uuid@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
+  integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
 
 v8-compile-cache-lib@^3.0.1:
   version "3.0.1"
