@@ -16,7 +16,7 @@ function getRollupOptions(options) {
     '@pinser-metaverse/ready-player-me',
     '@pinser-metaverse/design-system',
     '@pinser-metaverse/screen-shared',
-    '@pinser-metaverse/room',
+    '@pinser-metaverse/router',
   ];
 
   const value = {

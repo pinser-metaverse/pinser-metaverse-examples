@@ -1580,10 +1580,10 @@
   resolved "https://registry.yarnpkg.com/@pinser-metaverse/ready-player-me/-/ready-player-me-0.12.5.tgz#48d8442e7b176dd2e0945b9bed423715061247e8"
   integrity sha512-WkvDq46j47nzwKqbCWKwk9eQ9+yPpM1X9RTWNCQ8PaoJCsxy3XGRR95s9sQxQnMV/W3s/ipS7C9dVuUh4Q1tVA==
 
-"@pinser-metaverse/room@latest":
-  version "0.12.5"
-  resolved "https://registry.yarnpkg.com/@pinser-metaverse/room/-/room-0.12.5.tgz#8353d5110feb3cfc7b664f799b783014f1181a32"
-  integrity sha512-V3NY4h1iBZEOE+5z5Vs64dwQBHMVPKyshpUUpuV0KwqqvbnI/3F8WJ3/82aDdsDfNwhg3bL1ixcTdqecrX3xhA==
+"@pinser-metaverse/router@latest":
+  version "0.14.6"
+  resolved "https://registry.yarnpkg.com/@pinser-metaverse/router/-/router-0.14.6.tgz#e189f529c842aae96b0c9f092c2ec7930b0a5189"
+  integrity sha512-VwXp8jexZDh3rFuw00ARHg6e8Obdc+m4epxhVcojlnH1Y26KdN806x9HLCgET3Z5C9kCY9P5N2UWtaYVtCaQDg==
 
 "@pinser-metaverse/scene@latest":
   version "0.12.5"
