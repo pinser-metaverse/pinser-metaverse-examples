@@ -24,7 +24,7 @@ export class MetaverseBootstrapSpaceElement extends MetaElement {
 
   override render() {
     return html` <!-- space -->
-      <a-sky hide-on-enter-ar color="#80d4ff"></a-sky>
+      <a-sky hide-on-ar color="#80d4ff"></a-sky>
 
       <!-- IDLE man -->
       <meta-gltf
@@ -66,7 +66,7 @@ Good visit !"
 
       <!-- ground -->
       <meta-teleportable
-        hide-on-enter-ar
+        hide-on-ar
         width="22.9"
         height="16.92"
         color="#d99f20"
