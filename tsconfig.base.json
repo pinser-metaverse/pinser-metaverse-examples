@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@metaverse-bootstrap/example/hello-world": [
+        "libs/example/hello-world/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

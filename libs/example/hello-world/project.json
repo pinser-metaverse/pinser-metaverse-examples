@@ -1,0 +1,78 @@
+{
+  "$schema": "..\\..\\..\\node_modules\\nx\\schemas\\project-schema.json",
+  "sourceRoot": "libs/example/hello-world/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "project": "libs/example/hello-world/package.json",
+        "outputPath": "dist/libs/example/hello-world",
+        "compiler": "swc",
+        "entryFile": "libs/example/hello-world/src/index.ts",
+        "tsConfig": "libs/example/hello-world/tsconfig.lib.json",
+        "rollupConfig": ["libs/example/hello-world/rollup.config.cjs"],
+        "format": ["esm"],
+        "assets": [
+          {
+            "glob": "libs/example/hello-world/*.md",
+            "input": ".",
+            "output": "."
+          },
+          {
+            "glob": "libs/example/hello-world/src/index.html",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      },
+      "configurations": {
+        "serve": {
+          "watch": true,
+          "assets": []
+        }
+      }
+    },
+    "publish": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "node tools/scripts/publish.mjs @metaverse-bootstrap/example-hello-world {args.ver} {args.tag}"
+      },
+      "dependsOn": [
+        {
+          "projects": "self",
+          "target": "build"
+        }
+      ]
+    },
+    "serve": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "npm-run-all --parallel \"server ./dist/libs/example/hello-world\" \"nx run example-hello-world:build:serve\""
+      },
+      "dependsOn": [
+        {
+          "projects": "self",
+          "target": "build"
+        }
+      ]
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/example/hello-world/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/example/hello-world"],
+      "options": {
+        "jestConfig": "libs/example/hello-world/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": ["example", "pins"]
+}

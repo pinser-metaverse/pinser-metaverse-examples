@@ -6,7 +6,7 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "serve": "nx serve",
+    "serve": "nx serve example-hello-world",
     "server": "serve",
     "nx": "nx"
   },
@@ -34,7 +34,7 @@
     "@pinser-metaverse/observe": "latest",
     "@pinser-metaverse/player": "latest",
     "@pinser-metaverse/ready-player-me": "latest",
-    "@pinser-metaverse/room": "latest",
+    "@pinser-metaverse/router": "latest",
     "@pinser-metaverse/scene": "latest",
     "@pinser-metaverse/screen-shared": "latest",
     "@pinser-metaverse/teleport": "latest",
