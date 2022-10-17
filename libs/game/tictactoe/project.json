@@ -1,0 +1,78 @@
+{
+  "$schema": "..\\..\\..\\node_modules\\nx\\schemas\\project-schema.json",
+  "sourceRoot": "libs/game/tictactoe/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "project": "libs/game/tictactoe/package.json",
+        "outputPath": "dist/libs/game/tictactoe",
+        "compiler": "swc",
+        "entryFile": "libs/game/tictactoe/src/index.ts",
+        "tsConfig": "libs/game/tictactoe/tsconfig.lib.json",
+        "rollupConfig": ["libs/game/tictactoe/rollup.config.cjs"],
+        "format": ["esm"],
+        "assets": [
+          {
+            "glob": "libs/game/tictactoe/*.md",
+            "input": ".",
+            "output": "."
+          },
+          {
+            "glob": "libs/game/tictactoe/src/index.html",
+            "input": ".",
+            "output": "."
+          }
+        ]
+      },
+      "configurations": {
+        "serve": {
+          "watch": true,
+          "assets": []
+        }
+      }
+    },
+    "publish": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "node tools/scripts/publish.mjs @metaverse-bootstrap/game-tictactoe {args.ver} {args.tag}"
+      },
+      "dependsOn": [
+        {
+          "projects": "self",
+          "target": "build"
+        }
+      ]
+    },
+    "serve": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "npm-run-all --parallel \"server ./dist/libs/game/tictactoe\" \"nx run game-tictactoe:build:serve\""
+      },
+      "dependsOn": [
+        {
+          "projects": "self",
+          "target": "build"
+        }
+      ]
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/game/tictactoe/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/game/tictactoe"],
+      "options": {
+        "jestConfig": "libs/game/tictactoe/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": ["game", "pins"]
+}
