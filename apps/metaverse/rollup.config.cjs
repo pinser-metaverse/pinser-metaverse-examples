@@ -6,7 +6,6 @@ function getRollupOptions(options) {
   const extraGlobals = {};
   const externals = [
     '@pinser-metaverse/core',
-    '@pinser-metaverse/gltf',
     '@pinser-metaverse/player',
     '@pinser-metaverse/scene',
     '@pinser-metaverse/exporter',
@@ -16,7 +15,10 @@ function getRollupOptions(options) {
     '@pinser-metaverse/ready-player-me',
     '@pinser-metaverse/design-system',
     '@pinser-metaverse/screen-shared',
-    '@pinser-metaverse/room',
+    '@pinser-metaverse/router',
+    '@pinser-metaverse/html',
+    '@pinser-metaverse/mesh',
+    '@pinser-metaverse/spline',
   ];
 
   const value = {
